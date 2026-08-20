@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Latest-orange.svg)](https://scikit-learn.org/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/fadlyfebro/titanic-survival-classification-pipeline)
 
 ## 1. Project Overview
 An end-to-end, industry-standard machine learning pipeline designed to predict passenger survival on the RMS Titanic. By applying data science techniques and classification algorithms, this project uncovers patterns in passenger demographics and socioeconomic status to build an accurate predictive model. 
@@ -15,7 +16,6 @@ The sinking of the RMS Titanic is an infamous maritime disaster where over 1,500
 * Engineer informative features to capture relational and social dynamics[cite: 3].
 * Benchmark multiple classification algorithms: Logistic Regression, Random Forest, and Gradient Boosting[cite: 3].
 * Evaluate models using Accuracy, F1-Score, and ROC-AUC metrics[cite: 3].
-* Generate a competition-ready `submission.csv` and export reusable pipeline artifacts[cite: 3].
 
 ## 3. Key Features & Methodology
 * **Domain-Driven Feature Engineering:** Extraction of passenger titles (`Title`) from names, computation of family sizes (`FamilySize` = `SibSp` + `Parch` + 1), and binary solo traveler status (`IsAlone`)[cite: 3].
@@ -39,7 +39,6 @@ The sinking of the RMS Titanic is an infamous maritime disaster where over 1,500
 ├── test.csv                          # Testing dataset (418 records)
 ├── train.csv                         # Training dataset (891 records)
 ├── titanic-survival-classification-pipeline.ipynb  # Main ML Workflow Notebook
-├── submission.csv                    # Final predictions for Kaggle
 └── titanic_best_pipeline.joblib      # Serialized production pipeline
 ```
 ## 6. Key Insights & Results
